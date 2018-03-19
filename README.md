@@ -1,4 +1,5 @@
 #Resumo
+
 Os sistemas embarcados estão cada vez mais presentes em nosso cotidiano. Modelos 
 como a Raspberry, Orange Pi, Beaglebone, dentre outros vêm se tornando cada vez mais
 populares, principalmente em aplicações domésticas e/ou de baixo custo. Este trabalho
@@ -18,10 +19,12 @@ a de um computador. Entretanto, a placa apresentou melhor eficiência na utiliza
 seus núcleos em relação ao computador. Conclui-se portanto, que a Raspberry Pi é uma
 alternativa barata e eficiente para sistemas de baixo custo ou que não tenham tempo de
 resposta como fator crítico.
+
 ##Palavras-chave: Raspberry Pi. Desempenho. Paralelo. Sequencial.
 #
 #
 #Abstract
+
 Embedded systems are increasingly present in our daily lives. Models such as rasp-
 berry, orange Pi, Beaglebone, among others have become increasingly popular, especially
 in domestic and / or low-cost applications. This work presents a performance comparison
@@ -38,4 +41,5 @@ but there are memory resources as well as features such as primary and secondary
 that are slower than a computer. However, a board had better use of its cores in relation
 to the computer. For example, a Raspberry Pi is an inexpensive and efficient alternative
 for low-cost systems and has no response time as a critical factor.
+
 ##Keywords: Raspberry Pi. Performance. Parallel. Sequential.
