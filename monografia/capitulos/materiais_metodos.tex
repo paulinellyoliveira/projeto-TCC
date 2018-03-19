@@ -1,0 +1,264 @@
+Este capítulo apresenta os materiais utilizados para o desenvolvimento, os métodos aplicados e as métricas selecionadas para a análise do desempenho com base nos resultados obtidos.
+
+\section{Materiais}
+\label{secao:materiais}
+
+Para a realização deste trabalho, foi utilizado: 
+\begin{enumerate}
+	\item \textit{Notebook} Asus X44C com sitema operacional Linux Ubuntu 16.04 professional 64 bits. Suas especificações são apresentadas no Quadro \ref{quadro:notebookasus}.
+	
+	\item placa Raspberry Pi 3B com cartão MicroSD de 16GB. Suas especificações são apresentadas na Seção \ref{secao:raspberry_pi}.
+	
+	\item Compiladores GCC e G++ versões 5.4.0.
+	
+	\item Biblioteca OpenMp 3.1.	
+\end{enumerate}
+
+\begin{quadro}[htb] \centering
+	\begin{tabular}{ll}        \hline
+		\textbf{Item}		 & \textbf{Descrição}						  \\ \hline \hline
+		Modelo               & \textit{Notebook} Asus X44C                \\ 
+		Processador          & Intel Core i3-2330M 2.2GHz                 \\ 
+		Memóra               & 4 GB DDR3 1333MHz SDRAM \textit{On-board}  \\ 
+		Sistema Operacional  & Linux Ubuntu 16.04 LTS - 64 \textit{bits}  \\ 
+		Armazenamento        & HD SATA 500 GB - 5400 rpm                  \\ 
+		Fonte de Alimentação & Input: 127/220 V AC, 50/60Hz               \\
+		& Output: 19V DC, 3,42A, 65W                 \\ \hline
+	\end{tabular}
+	\caption{Especificações de hardware (processador, memória, HD, alimentação etc.) do \textit{Notebook} Asus X44C usado no desenvolvimento deste trabalho.}
+	\ Fonte: \cite{asus:2017:x44c}.
+	\label{quadro:notebookasus}
+\end{quadro}
+
+\subsection{O Algoritmo}
+\label{secao:oalgoritmo}
+
+O algoritmo escolhido foi um AG paralelo para resolução do PCV disponibilizado por \citet{arora:2017:travelling}. O mesmo foi escolhido devido a sua granularidade e grande capacidade de paralelização conciliado com a grande carga de processamento que consegue exercer sobre o hardware. Os arquivos de entrada para o algoritmo, possuíam três colunas. A primeira era um número inteiro que representava a cidade, a segunda e a terceira eram, respectivamente, a coordenada X e Y das cidades (sendo estes números inteiros entre 0 e 10000, gerados aleatoriamente). O algoritmo, primeiramente, armazenou o tempo atual. Posteriormente realizou a leitura do arquivo de entrada e criou uma matriz com as coordenadas X e Y das cidades. Em seguida, foi gerada uma matriz de distância das cidades. Esta era a distância euclidiana, que em um espaço bi-dimensional (entre os pontos $P=(p_1,p_2,...,p_n)$ e $Q=(q_1,q_2,...,q_n)$) é dada pela Equação \ref{equacao:deuclid}. 
+
+\begin{equation} \label{equacao:deuclid}
+d(P,Q) = \sqrt{\sum_{i=1}^{n}(p_i-q_i)^2}
+\end{equation}
+
+Na sequência foi gerada aleatoriamente a população inicial. O algoritmo mantinha também os 10 melhores cromossomos (impedindo a extinção dos mesmos) de todas as gerações para propagá-los de tempos em tempos. O Código \ref{codigo:pos_leitura_entrada} mostra a sequência de instruções executadas após a leitura do arquivo de entrada.
+
+\begin{codigo}[!htb]
+	\begin{Verbatim}
+int N1 = ((10*N*N)>10000)?10000:(10*N*N);			
+
+//Conjunto completo de cromossomos
+vector< vector<int> > chromos(N1, vector<int> (N,0));  
+
+//Conjunto dos melhores cromossomos
+vector< vector<int> > bests(BESTS, vector<int> (N,0)); 
+
+int best = 0;
+vector<float> fitness(N1,2000000000.0);                
+float maxfitness = 2000000000.0;	//distância máxima					
+omp_lock_t locks[N1],lock4bests;
+
+//Bloqueio de inicialização para acessar a matriz
+omp_init_lock(&lock4bests);	
+	
+for(i = 0;i<N;i++){	//gerando população inicial
+	chromos[0][i] = i;
+}
+	\end{Verbatim}
+	\caption{Instruções executadas após a leitura do arquivo de entrada.} \label{codigo:pos_leitura_entrada}
+\end{codigo}
+
+Até nesse momento, o código era executado de forma sequencial. O trecho de início da paralelização é mostrado no Código \ref{codigo:paralelizacao}, em que o comando $\#pragma$ $omp$ $parallel$ definia a paralelização e os comandos $shared$ e $private$ definiam, respectivamente, as variaveis compartilhadas e as que não eram, entre as \textit{threads} criadas. Pode-se notar, também, a aleatorização e o cálculo do \textit{fitness} dos cromossomos da população inicial.
+
+\begin{codigo}[!htb]
+	\begin{Verbatim}
+#pragma omp parallel shared(fitness,maxfitness,best,chromos,
+locks,lock4bests,N,N1,dist,bests) private(GREEDY,MUTATE)
+{
+	NUMT = omp_get_num_threads();
+	cout<<NUMT<<endl;
+	#pragma omp for
+	for(int il = 0 ; il<N1;il++){
+		omp_init_lock(locks+il);
+		chromos[il] = chromos[0];
+
+		// Aleatorizando a população inicial
+		random_shuffle(chromos[il].begin(), chromos[il].end(),myrandom);
+		float x=0;
+		
+		//\textit{fitness} da população inicial								
+		for(int j = 0 ; j<N;j++){
+			x+=dist[chromos[il][j]][chromos[il][(j+1)%N]];
+		}
+		fitness[il] = x;
+		if(maxfitness>fitness[il]){
+
+			//Atualizando o conjunto 
+			//dos melhores cromossomos
+			omp_set_lock(&lock4bests);  
+			maxfitness = fitness[il];		
+			best = (++best)%BESTS;
+			bests[best] = chromos[il];
+			omp_unset_lock(&lock4bests);
+		}
+
+	}
+	\end{Verbatim}
+	\caption{Rotina de paralelização do AG.} \label{codigo:paralelizacao}
+\end{codigo}
+
+O máximo de gerações foi de 100000, sendo que nas 8000 (80\%) primeiras gerações a taxa de mutação era de 20\% e nas 2000 (20\%) restantes a taxa de mutação aumentava para 40\%. O Código \ref{codigo:inicio_geraceos} apresenta o laço $for$ que executava as gerações, definição das taxas de mutação e a propagação dos melhores cromossomos na população atual.
+
+\begin{codigo}[!htb]
+	\begin{Verbatim}
+int iterations; 
+	
+//inicio da execução das gerações 
+for(iterations = 0 ; iterations < MAX_ITERS; iterations++){
+	GREEDY = (int)(100- (((float)iterations)/MAX_ITERS)*10);
+	
+	//configuração das taxas de mutação (20\% e 40\%)      
+	MUTATE = (iterations<((4*MAX_ITERS)/5))?20:40;
+	#pragma omp master                                            
+	{
+	//imprimindo maior fitnees geração atual									
+	if((iterations%1000==999)||(iterations%1000==0))cout<<
+	iterations<<" ~ "<<GREEDY<<" ~ "<<MUTATE<<" ~ "
+	<<maxfitness<<endl;
+	}
+	#pragma omp for nowait
+	for(int nb = 0;nb<BESTS;nb++){    		
+		int te = rand()%N1;
+	
+		//Semeando os melhores cromossomos				
+		omp_set_lock(locks+te);
+		chromos[te] = bests[nb];
+		omp_unset_lock(locks+te);	
+	}
+	\end{Verbatim}
+	\caption{Rotina de execução das gerações.} \label{codigo:inicio_geraceos}
+\end{codigo}
+
+Haviam disponíveis quatro métodos diferentes de cruzamento dos cromossomos - \textit{Partially Mapped Crossover} (PMX), \textit{Greedy Crossover} (GX), \textit{Cycle Crossover} (CX) e \textit{Edge Recombination Crossover} (ERX) - em que, a cada geração, era sorteado aleatoriamente um desses. O Código \ref{codigo:cruzamento} mostra como era feita a seleção do método de cruzamento e a aplicação da mutação nos cromossomos. O Código \ref{codigo:avalizao} mostra o cálculo do \textit{fitness} da população atual e a atualização do conjunto dos melhores indivíduos.
+
+\begin{codigo}[!htb]
+	\begin{Verbatim}
+int select = (rand()%101),index,temp;
+			
+// Seleção da técnica de cruzamento	
+if(select<GREEDY)gx(chromos[first],chromos[second],dist);	
+else if(select<GREEDY+PMX)pmx(chromos[first],chromos[second]);
+else erx(chromos[first],chromos[second]);
+			
+//mutação dos cromossomos
+select = (rand()%101);			
+if(select<=MUTATE){			
+	index = rand()%(N*N);
+	temp = chromos[first][index/N];
+	chromos[first][index/N] = chromos[first][index%N];
+	chromos[first][index%N] = temp;
+}
+select = (rand()%101);
+if(select<=MUTATE){
+	index = rand()%(N*N);
+	temp = chromos[second][index/N];
+	chromos[second][index/N] = chromos[second][index%N];
+	chromos[second][index%N] = temp;
+}
+	\end{Verbatim}
+	\caption{Seleção da técnica de cruzamento e aplicação da mutação nos cromossomos.} \label{codigo:cruzamento}
+\end{codigo}
+
+
+\begin{codigo}[!htb]
+	\begin{Verbatim}
+//Avaliação da aptidão dos pares cruzados
+float x=0;							
+for(int j = 0 ; j<N;j++){
+	x+=dist[chromos[first][j]][chromos[first][(j+1)%N]];
+}
+fitness[first] = x;
+			
+x=0;
+for(int j = 0 ; j<N;j++){
+	x+=dist[chromos[second][j]][chromos[second][(j+1)%N]];
+}
+fitness[second] = x;
+
+//Atualização do conjunto dos melhores cromossomos			
+if(maxfitness>fitness[first]){
+	omp_set_lock(&lock4bests);
+	best = (++best)%BESTS;
+	bests[best] = chromos[first];
+	maxfitness = fitness[first];
+	omp_unset_lock(&lock4bests);
+}
+if(maxfitness>fitness[second]){
+	omp_set_lock(&lock4bests);
+	best = (++best)%BESTS;
+	bests[best] = chromos[second];
+	maxfitness = fitness[second];
+	omp_unset_lock(&lock4bests);
+}	
+	\end{Verbatim}
+	\caption{Calculo do \textit{fitness} e atualização do conjunto dos melhores cromossomos.} \label{codigo:avalizao}
+\end{codigo}
+
+
+\section{Métricas}
+\label{secao:metricas}
+
+Esta seção apresenta as métricas que foram aplicadas nos dados obtidos após a execução do AG para avaliação dos resultados.
+
+\begin{enumerate} 
+	
+	\item \textbf{\textit{Speedup (Sd)}}: é uma métrica de desempenho utilizada para avaliar o quanto um algoritmo, uma execução ou arquitetutra é mais rápida que a outra. Um exemplo seria a relação entre o tempo sequencial e o tempo paralelo de um mesmo algoritmo. A Equação \ref{equacao:sd} apresenta o modelo matemático do \textit{Sd}. \cite{rodrigues:2012:proposta}.
+	
+	\begin{equation} \label{equacao:sd}
+	Sd=\frac{T_s}{T_p}
+	\end{equation}
+	
+	Onde $T_s$ é o tempo sequencial e $T_p$ é o tempo paralelo. Essa equação representa um fator de ganho. Caso seu resultado seja um valor maior ou igual a 1, o algoritmo paralelo é mais rápido que o sequencial, caso contrário, significa que o sequencial é mais rápido.
+	
+	\item \textbf{Eficiência (Ef)}: representa a eficiência obtida pelo processamento paralelo em relação a quantidade de núcleos disponíveis. Seu modelo matemático é apresentado na Equação \ref{equacao:ef}. \cite{rodrigues:2012:proposta}.
+	
+	\begin{equation} \label{equacao:ef}
+	Ef=100*(\frac{Sd}{Núcleos})
+	\end{equation}
+	
+	Este resultado mostra o quanto o algoritmo paralelo utilizou dos núcleos (utilização dos núcleos em relação ao ganho). O valor ideal de eficiência seria de 100\%, mas na prática isso não ocorre, devido a várias questões, como estratégia de escalonamento de processos, sincronização de dados, liberação de recursos, entre outros.
+	
+%	\item \textbf{Média aritmética}: é a soma total ($\sum$) dos dados divididos pela quantidade de dados ($n$) e é usada para resumir dados quantitativos simétricos. Considerando que $x_1, x_2,...,x_n$ são os valores dos dados, a Equação \ref{equacao:media} apresenta o modelo matemático da média. Alguns autores consideram essa uma medida de tendência central devido ao fato de focar nos valores médios dentro da amostra (entre os maiores e os menores). \cite{shimakura:2005:media}.
+	
+%	\begin{equation} \label{equacao:media}
+%	\bar{x}=\frac{x_1+x_2+...+x_n}{n}=\frac{\sum_{i=1}^{n}x_i}{n}
+%	\end{equation}
+	
+	
+%	\item \textbf{Mediana}: ou (\textit{percentil} 50) é uma medida de localização do centro da distribuição dos dados. É dada pelo valor que, ao ordenar os valores dos dados da amostra, divide os mesmos ao meio e com isso metade dos dados tem valores menores que a mediana e a outra metade tem valores maiores que a media, sendo principalmente útil em dados não simétricos. Para uma amostra par a mediana é a média dos dois valores centrais, para amostra ímpar é obtida pela Equação \ref{equacao:mediana}. \cite{shimakura:2005:media}.  
+	
+%	\begin{equation} \label{equacao:mediana}
+%	Md = \frac{n+1}{2}
+%	\end{equation}
+	
+%	\item \textbf{Desvio Padrão}: para se obter o desvio padrão, faz-se necessário calcular a variância - definida como o desvio quadrático médio da média - dada pela Equação \ref{equacao:vari}. O mesmo é dados pela Equação \ref{equacao:desvio}.
+	
+%	\begin{equation} \label{equacao:vari}
+%	s^2=\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1}=\frac{\sum_{i=1}^{n}(x_i)^2 - n\bar{x}^2}{(n-1)}
+%	\end{equation}
+	
+%	\begin{equation} \label{equacao:desvio}
+%	\sigma = \sqrt{variância} = \sqrt{s^2}
+%	\end{equation}
+	
+%	O desvio padrão é uma forma de expressar a variabilidade dos dados eliminando a influência da ordem de grandeza da variável. \citet{shimakura:2005:media} comenta que o desvio padrão:
+%	\begin{enumerate}
+%		\item analisado como a variabilidade dos dados em relação à média. Quanto menor for, mais homogêneo é a amostra;
+%		\item adimensional (positivo quando a média for positiva e zero quando não houver variabilidade no conjunto de dados);
+%		\item para qualquer conjunto de dados, pelo menos 75\% deles ficam dentro de uma distância de 2 desvios padrão da média, isto é, entre $\bar{x}-2s$ e $\bar{x}+2s$.
+%	\end{enumerate}
+	
+\end{enumerate}
+
+\section{Métodos}
+\label{secao:metodos}
+
+Os testes foram realizados com entradas (cidades) de tamanho no intervalo de 5 a 100, variando de 5 em 5, sendo executadas de forma paralela e sequencial em ambas as arquiteturas apresentadas, a fim de verificar o comportamento das mesmas com diferentes volumes de dados. Um segundo teste com entrada de tamanho 30 foi realizado com 50 repetições, gerando uma amostra em cada um dos cenários apresentados para analisar o comportamento das arquiteturas ao longo do tempo. Os arquivos de entrada foram gerados uma única vez e replicados em todos os cenários apresentados (os mesmo arquivos foram utilizados nas duas arquiteturas). Os tempos de cada execução foram fornecidos pelo próprio algoritmo e foram armazenados para aplicação das métricas apresentadas na Seção \ref{secao:metricas}.

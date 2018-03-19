@@ -1,0 +1,26 @@
+what type of plot should be drawn. Possible types are
+"p" for points,
+"l" for lines,
+"b" for both,
+"c" for the lines part alone of "b",
+"o" for both ‘overplotted’,
+"h" for ‘histogram’ like (or ‘high-density’) vertical lines,
+"s" for stair steps,
+"S" for other steps, see ‘Details’ below,
+"n" for no plotting.
+All other types give a war
+
+
+amostra50			& Media		& Mediana	& Desvio Padrão					amostra20			& Media		& Mediana	& Desvio Padrão
+Ts Notebook			& 279,7962	& 279,743	& 0,5213512					Sp Ts Raspberry/Notebook	& 3,269522	& 2,955856	& 1,092519
+Ts Raspberry			& 1370,545	& 1373,18	& 7,039372					Sp Tp Raspberry/Notebook	& 3,322445	& 3,345633	& 0,1667728
+Tp Notebook			& 139,5995	& 139,5775	& 0,3903569					Sp Notebook Ts/Tp		& 1,912398	& 2,179202	& 0,5637903
+Tp Raspberry			& 481,2862	& 481,3365	& 1,51116					Sp Raspberry Ts/Tp		& 1,73507	& 1,873102	& 0,3314175
+Sp Ts Raspberry/Notebook	& 4,889788	& 4,899542	& 0,03811137					Ef Notebook			& 50,15497	& 54,48006	& 22,99362
+Sp Tp Raspberry/Notebook	& 3,426614	& 3,443997	& 0,07852414					Ef Raspberry			& 47,93838	& 48,13877	& 21,93326
+Sp Notebook Ts/Tp		& 1,993662	& 2,00327	& 0,0456298								
+Sp Raspberry Ts/Tp		& 2,844953	& 2,846606	& 0,02135735								
+Ef Notebook			& 49,84156	& 50,08174	& 1,140745								
+Ef Raspberry			& 71,12383	& 71,16514	& 0,5339338								
+											
+											

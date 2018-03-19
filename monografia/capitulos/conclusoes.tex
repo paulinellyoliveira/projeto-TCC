@@ -1,0 +1,31 @@
+Neste trabalho foi realizado um comparativo de desempenho entre um computador \textit{desktop} e uma Raspberry Pi. Para a realização dos testes, um AG para resolução do PCV foi utilizado de forma sequencial e paralela (uso da biblioteca OpenMP). Foram realizados dois testes, sendo que o primeiro era a execução do AG com entradas de tamanhos diferentes e o segundo execuções repetidas (total de 50) com tamanho de entrada fixo (30 cidades) em ambas as arquiteturas propostas. Com o tempo de execução obtido, foram aplicadas as métricas como $Sd$ e $Ef$, entre outras, para análise do desempenho e comportamento das arquiteturas.
+
+Os resultados mostram um $Sd$ de 3 a 4,8 do \textit{notebook} em relação a Raspberry Pi no AG sequencial e um $Sd$ em torno de 3,3 do \textit{notebook} em relação a Raspberry Pi no AG paralelo. Estes resultados são esperados visto que a placa possui recursos mais limitados em relação ao \textit{notebook}, dos quais podemos destacar:
+
+\begin{enumerate}
+	\item Memória secundária: o armazenamento da Raspberry Pi é um cartão MicroSD (memória \textit{flash}) que é mais lenta se comparada a do \textit{notebook} (HD SATA).
+	
+	\item Memória primária: a memória da Raspberry Pi (DDR2 900 MHz) possui frequência menor que a do \textit{notebook} (DDR3 1,33GHz).
+	
+	\item Arquitetura x86 (híbrida de RISC e CISC) do \textit{notebook} possui instruções complexas já implementadas, enquanto que a arquitetura ARM (puramente RISC) não tem, o que aumenta a quantidade de instruções necessárias para executar determinadas tarfeas, se comparada com a x86.
+\end{enumerate}
+
+Por outro lado, a placa Raspberry Pi apresentou melhor eficiência na utilização de seus núcleos quando comparada com o \textit{notebook}. Isso se deve principalmente a otimização e robustez presentes da placa devido ao fato de ter seus recursos mais limitados, o que inclui um SO mais enchuto.
+
+Por fim, pode-se concluir que a placa Raspberry Pi possui desempenho significativo que, aliado a outras vantagens (baixo custo, estabilidade, recursos como porta \textit{ethernet}, wi-fi, GPIO, entre outros), torna a placa uma alternativa barata e eficiente para aplicações de baixo custo e que não necessitam de tempo de resposta como fator crítico.
+
+Pode-se destacar como principais limitações a falta de um ambiente de rede (\textit{cluster}) para testes com aplicações distribuídas, falta de testes com outros tipos de aplicações que exijam carga de processamento e análises utilizando softwares do tipo \textit{benchmark}. O consumo de energia e o desempenho com e sem um dissipador de calor para a Raspberry Pi também não foram analisados.
+
+Como sugestão para trabalhos futuros:
+
+\begin{enumerate}
+	\item Testes com aplicações distribuídas, como por exemplo, utilizando \textit{cluster} homogêneo.
+	
+	\item Testes com aplicações distribuídas, como por exemplo, utilizando \textit{cluster} heterogêneo.
+	
+	\item Comparação com dispositivos similares a Raspberry Pi, por exemplo, a Orange Pi e a BeagleBone, entre outras.
+	
+	\item Testes com outras classes de algoritmos, por exemplo, para processamento gráfico, processamento de digital de imagens (PDI), mineração de dados em grandes volumes de informações, entre outras.
+	
+	\item Análise do consumo de energia, calor dissipado e a diferença de desempenho com e sem um dissipador de calor para a placa.
+\end{enumerate}

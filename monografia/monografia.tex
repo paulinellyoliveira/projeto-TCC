@@ -1,0 +1,143 @@
+\documentclass[english,brazil]{iftex}
+
+\include{config}
+
+% ------------------------------------------------------------------------
+% Configurações do Documento
+% ------------------------------------------------------------------------
+\titulo{Comparação do Desempenho Multi-Core de Arquiteturas RISC e CISC: Um Estudo de Caso Entre Computador Desktop e o Raspberry Pi}
+\autor{Paulinelly de Sousa Oliveira}
+\local{Bambuí - MG}
+\data{15}{Dezembro}{2017}
+
+% Instituição
+\instituicao{Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais}
+\unidade{\textit{campus} Bambuí}
+% Os possíveis tipos de trabalhos são: monografia, dissertacao ou tese
+\tipotrabalho{monografia}
+\curso{Bacharel}{Engenharia de Computação}
+
+\areaconcentracao{Computação de Alto Desempenho}
+% Orientação
+\orientador{Prof. Dr. Laerte Mateus Rodrigues}
+\coorientador[Coorientador]{Prof. Carlos Renato Nolli}
+% Caso o coorientador seja de outra instituição
+%\coorientadorinstituicao{Instituição da Coorientadora}
+
+% Membros da banca examinadora (além do orientador e coorientador)
+\membrobanca{Prof. Me. Ciniro Aparecido Leite Nametala}{Instituto Federal de Minas Gerais - \textit{campus} Bambuí}
+\membrobanca{Prof. Me. Francisco Heider Willy dos Santos}{Instituto Federal de Minas Gerais - \textit{campus} Bambuí}
+
+% ------------------------------------------------------------------------
+% Ficha catalográfica (Obrigatória)
+% ------------------------------------------------------------------------
+% Caso o comando \fichacatalografica seja definido, a ficha catalográfica
+% será inserida no verso da folha de rosto.
+% Entre em contato com a biblioteca para obter a ficha catalográfica em
+% arquivo PDF. Essa ficha só será inserida no documento após a sua defesa.
+\inserirfichacatalografica{ficha_catalografica}
+
+% ------------------------------------------------------------------------
+% Folha de aprovação (Obrigatória)
+% ------------------------------------------------------------------------
+% O comando \inserirfolhaaprovacao{} gera a folha de aprovação para ser
+% assinada. Após a defesa esta folha deve ser digitalizada em um arquivo
+% PDF e inserida pelo comando \inserirfolhaaprovacao{arquivo}
+\inserirfolhaaprovacao{folhaprovacao}
+
+% Dedicatória (Opcional)
+\inserirdedicatoria{
+A Deus, pela força para lutar e chegar até aqui.	
+
+Aos meus pais, à minha irmã e meus amigos, pelo incentivo e motivação para alcançar meus sonhos.
+
+A todos que contribuíram e/ou torceram por mim.
+}
+
+% Agradecimentos (Opcional)
+\inseriragradecimentos{
+Agradeço a Deus por te concedido a mim esta grande oportunidade e dado forças em todos os momentos difíceis. Agradeço aos meus pais (José Vicente e Vera Lúcia) e a minha irmã (Patrícia) por terem acreditado em mim e por todo o apoio, confiança e por abraçarem este sonho comigo. Agradeço meu orientador (Laerte), co-orientador (Renato Nolli) e aos demais professores pela ajuda, paciência, conselhos e por todo conhecimento que me passaram, permitindo que eu chegasse aqui. Agradeço aos meus amigos, colegas de sala e curso que me ajudaram direta ou indiretamente. A todos que de alguma forma contribuíram: meu muito obrigado!!
+}
+
+% Epígrafe (Opcional)
+\inserirepigrafe{
+    ``A imaginação é mais importante que a ciência, porque a ciência é limitada, ao passo que a imaginação abrange o mundo inteiro.''\\
+    (Albert Einstein)
+        
+         
+    ``Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.''\\
+    (Afonso Allan)
+}
+
+\include{resumo_abstract}                % Resumo e Abstract (Obrigatórios)
+\inserirlistafiguras                     % Lista de Figuras (Opcional)
+%\inserirlistaquadros                     % Lista de Quadros (Opcional)
+%\inserirlistatabelas                     % Lista de Tabelas (Opcional)
+%\inserirlistaalgoritmos                  % Lista de Algoritmos (Opcional)
+\inserirlistacodigos                     % Lista de Códigos (Opcional)
+%\inserirlistasiglas{\input{siglas}}      % Lista de Siglas (Opcional)
+%\inserirlistasimbolos{\input{simbolos}}  % Lista de Símbolos (Opcional)
+
+\begin{document}
+
+% -----------------------------------------------------------------------------
+% Gera elementos pré-textuais
+% -----------------------------------------------------------------------------
+\maketitle
+
+% -----------------------------------------------------------------------------
+% Capítulo: Introdução
+% -----------------------------------------------------------------------------
+\chapter{Introdução} \label{cap:introducao}
+
+\input{capitulos/introducao}
+
+\chapter{Referencial Teórico}
+
+\input{capitulos/referencial_teorico}
+
+\chapter{Revisão de Literatura}
+
+\input{capitulos/revisao_literatura}
+
+\chapter{Materiais e Métodos}
+
+\input{capitulos/materiais_metodos}
+
+\chapter{Resultados de Discussões} \label{capitulo:ferramentas_uteis}
+
+\input{capitulos/resultados_discussoes}
+
+\chapter{Conclusões}
+
+\input{capitulos/conclusoes}
+
+% -----------------------------------------------------------------------------
+% Elementos pós-textuais
+% -----------------------------------------------------------------------------
+\postextual
+
+% -----------------------------------------------------------------------------
+% Referências bibliográficas
+% -----------------------------------------------------------------------------
+\bibliography{referencias}
+
+% -----------------------------------------------------------------------------
+% Apêndices
+% -----------------------------------------------------------------------------
+%\apendices\partapendices
+
+%\chapter{Documento Básico Usando a Classe {IF\TeX}}
+
+%\input{apendices/doc_basico_if}
+
+% -----------------------------------------------------------------------------
+% Anexos
+% -----------------------------------------------------------------------------
+%\anexos\partanexos
+
+%\chapter{Páginas Interessantes na Internet} \label{capitulo:paginas_interessantes}
+
+%\input{anexos/paginas_interessantes}
+
+\end{document}

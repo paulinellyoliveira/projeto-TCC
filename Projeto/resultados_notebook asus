@@ -1,0 +1,52 @@
+PARALELO:
+
+005 cidades: 2,241
+010 cidades: 9,879
+015 cidades: 25,421
+020 cidades: 49.913
+025 cidades: 97,767
+030 cidades: 141,966
+035 cidades: 211,765
+040 cidades: 250,663
+045 cidades: 272,251
+050 cidades: 323,506
+055 cidades: 359,835
+060 cidades: 410,289
+065 cidades: 435,14
+070 cidades: 478,638
+075 cidades: 533,827
+080 cidades: 556,882
+085 cidades: 634,073
+090 cidades: 699,789
+095 cidades: 740,603
+100 cidades: 792,911
+
+
+
+-------------------------------------------
+
+SEQUENCIAL:
+
+005 cidades: 0,9558
+010 cidades: 7,2712
+015 cidades: 27,4049
+020 cidades: 71,837
+025 cidades: 155,975
+030 cidades: 280,145
+035 cidades: 418,067
+040 cidades: 505,145
+045 cidades: 590,661
+050 cidades: 693,904
+055 cidades: 787,628
+060 cidades: 916,831
+065 cidades: 984,278
+070 cidades: 1075,55
+075 cidades: 1226,57
+080 cidades: 1291,15
+085 cidades: 1448,02
+090 cidades: 1588,42
+095 cidades: 1697,73
+100 cidades: 1824,36
+
+
+

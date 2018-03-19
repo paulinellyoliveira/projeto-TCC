@@ -1,0 +1,66 @@
+Paralelo:
+
+005 cidades: 7,098 
+010 cidades: 29,798 
+015 cidades: 79,189 
+020 cidades: 158,181 
+025 cidades: 326,937 
+030 cidades: 507,329 
+035 cidades: 708,825 
+040 cidades: 804,081 
+045 cidades: 844,442 
+050 cidades: 1049,87 
+055 cidades: 1180,75 
+060 cidades: 1336,32 
+065 cidades: 1458,83 
+070 cidades: 1614,59 
+075 cidades: 1795,99 
+080 cidades: 1930,37 
+085 cidades: 2187,27 
+090 cidades: 2418,45 
+095 cidades: 2591,56 
+100 cidades: 2903,3 
+
+------------------------------
+
+
+Sequencial:
+
+005 cidades: 7,3654
+010 cidades: 30,5063
+015 cidades: 95,642
+020 cidades: 224,335
+025 cidades: 462,626
+030 cidades: 861,96
+035 cidades: 1185,32
+040 cidades: 1459,45
+045 cidades: 1689,09
+050 cidades: 1915,18
+055 cidades: 2244,6
+060 cidades: 2465,79
+065 cidades: 2880,26
+070 cidades: 3219,54
+075 cidades: 3553,37
+080 cidades: 3797,54
+085 cidades: 4265,41
+090 cidades: 4756,19
+095 cidades: 5238,14
+100 cidades: 5777,2
+
+./tsp sample_input05 sample_output 10
+./tsp sample_input10 sample_output 10
+./tsp sample_input15 sample_output 10
+./tsp sample_input20 sample_output 10
+./tsp sample_input25 sample_output 10
+./tsp sample_input30 sample_output 10
+./tsp sample_input35 sample_output 10
+./tsp sample_input40 sample_output 10
+./tsp sample_input45 sample_output 10
+./tsp sample_input50 sample_output 10
+./tsp sample_input55 sample_output 10
+./tsp sample_input60 sample_output 10
+./tsp sample_input65 sample_output 10
+./tsp sample_input70 sample_output 10
+./tsp sample_input75 sample_output 10
+./tsp sample_input80 sample_output 10
+./tsp sample_input85 sample_output 10

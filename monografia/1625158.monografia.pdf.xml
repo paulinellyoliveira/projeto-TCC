@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE documentInfo>
+<documentInfo url="/home/laerte/Dropbox/Orientações/Paulinelly Oliveira/monografia/monografia.pdf">
+ <pageList>
+  <page number="0">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:51:56" uniqueName="okular-{617cfd14-3f2f-4013-b546-55897c5e44e6}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:51:56" color="#ffff00">
+      <boundary l="0.184557" r="0.861582" b="0.483011" t="0.379747"/>
+     </base>
+     <hl>
+      <quad dx="0.248792" cx="0.798309" dy="0.380017" bx="0.798309" cy="0.380017" ax="0.248792" by="0.39795" ay="0.39795" feather="1"/>
+      <quad dx="0.242754" cx="0.804348" dy="0.401366" bx="0.804348" cy="0.401366" ax="0.242754" by="0.4193" ay="0.4193" feather="1"/>
+      <quad dx="0.277778" cx="0.769324" dy="0.422716" bx="0.769324" cy="0.422716" ax="0.277778" by="0.440649" ay="0.440649" feather="1"/>
+      <quad dx="0.184783" cx="0.862319" dy="0.444065" bx="0.862319" cy="0.444065" ax="0.184783" by="0.461998" ay="0.461998" feather="1"/>
+      <quad dx="0.316425" cx="0.730676" dy="0.465414" bx="0.730676" cy="0.465414" ax="0.316425" by="0.483348" ay="0.483348" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:52:00" uniqueName="okular-{be6d0344-49ce-4a66-be22-333502a2a35b}" author="Laerte Mateus Rodrigues" contents="COMPARAÇÃO DO DESEMPENHO MULTI-CORE DE ARQUITETURAS RISC E CISC: UM ESTUDO DE CASO ENTRE COMPUTADOR DESKTOP E O RASPBERRY PI" modifyDate="2017-12-03T23:52:00" color="#ffff00">
+      <boundary l="0.444444" r="0.474444" b="0.397642" t="0.376416"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="12">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:53:58" uniqueName="okular-{15ded7a6-33b5-4b6b-b101-d9008a96c3bc}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:53:58" color="#ffff00">
+      <boundary l="0.720339" r="0.827684" b="0.213191" t="0.201199"/>
+     </base>
+     <hl>
+      <quad dx="0.721014" cx="0.828502" dy="0.201537" bx="0.828502" cy="0.201537" ax="0.721014" by="0.213493" ay="0.213493" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:54:00" uniqueName="okular-{f8623c92-418e-47d4-9385-69fadd0d21e0}" author="Laerte Mateus Rodrigues" contents="dentre outros vem" modifyDate="2017-12-03T23:54:00" color="#ffff00">
+      <boundary l="0.753296" r="0.783296" b="0.227089" t="0.205863"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:54:13" uniqueName="okular-{c897b4d3-ba08-4d1d-92b8-50dc5f7e91ff}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:54:13" color="#ffff00">
+      <boundary l="0.720339" r="0.878531" b="0.213191" t="0.201199"/>
+     </base>
+     <hl>
+      <quad dx="0.721014" cx="0.879227" dy="0.201537" bx="0.879227" cy="0.201537" ax="0.721014" by="0.213493" ay="0.213493" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:54:33" uniqueName="okular-{274ac217-0d63-4bf7-aae5-e4d95ac39d52}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:54:33" color="#ffff00">
+      <boundary l="0.222222" r="0.501883" b="0.23451" t="0.221852"/>
+     </base>
+     <hl>
+      <quad dx="0.222222" cx="0.502415" dy="0.222032" bx="0.502415" cy="0.222032" ax="0.222222" by="0.234842" ay="0.234842" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:54:34" uniqueName="okular-{9936ace0-6cce-4e93-af65-c48276dfa39a}" author="Laerte Mateus Rodrigues" contents="cada vez mais populares, principalmente" modifyDate="2017-12-03T23:54:34" color="#ffff00">
+      <boundary l="0.324859" r="0.354859" b="0.241746" t="0.22052"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:55:02" uniqueName="okular-{41efd61d-787a-498f-aa56-6c4b20ac29cd}" author="Laerte Mateus Rodrigues" contents="do" modifyDate="2017-12-03T23:55:02" color="#ffff00">
+      <boundary l="0.52919" r="0.55919" b="0.271726" t="0.2505"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:55:09" uniqueName="okular-{e2d119cb-8107-460a-a915-bdf7f04da86b}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:55:09" color="#ffff00">
+      <boundary l="0.504708" r="0.531073" b="0.255829" t="0.243171"/>
+     </base>
+     <hl>
+      <quad dx="0.504831" cx="0.531401" dy="0.243382" bx="0.531401" cy="0.243382" ax="0.504831" by="0.256191" ay="0.256191" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:55:21" uniqueName="okular-{aa19baae-5691-40c5-b18d-b67dd6cc53b5}" author="Laerte Mateus Rodrigues" contents="modelo 3B" modifyDate="2017-12-03T23:55:21" color="#ffff00">
+      <boundary l="0.394539" r="0.424539" b="0.291046" t="0.26982"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:55:28" uniqueName="okular-{4e6f97f5-5486-4a3f-b8dc-4b914aca8ed5}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:55:28" color="#ffff00">
+      <boundary l="0.355932" r="0.407721" b="0.277149" t="0.26449"/>
+     </base>
+     <hl>
+      <quad dx="0.35628" cx="0.408213" dy="0.264731" bx="0.408213" cy="0.264731" ax="0.35628" by="0.277541" ay="0.277541" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:57:05" uniqueName="okular-{a275ffdb-f508-4d46-af2b-f16147b7f96b}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:57:05" color="#0000ff">
+      <boundary l="0.419962" r="0.629944" b="0.277149" t="0.26449"/>
+     </base>
+     <hl>
+      <quad dx="0.42029" cx="0.630435" dy="0.264731" bx="0.630435" cy="0.264731" ax="0.42029" by="0.277541" ay="0.277541" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:57:10" uniqueName="okular-{bc1937cd-1be7-446c-bc88-b3151765ad9a}" author="Laerte Mateus Rodrigues" contents="Afim de avaliar os diferentes tipos de processamento, foi utilizado um algoritmo genético uma vez que seu código possui baixa granularidade&#xa;&#xa;(pesquise depois o que é granularidade em PPD, lembro de falar na aula, mas nao tenho certeza se tem nos slides)" modifyDate="2017-12-03T23:57:10" color="#ffff00">
+      <boundary l="0.502825" r="0.532825" b="0.297042" t="0.275816"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:58:49" uniqueName="okular-{6fff6171-112e-4acc-a6b8-ba35b00e43a8}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:58:49" color="#ffff00">
+      <boundary l="0.142185" r="0.333333" b="0.298468" t="0.285809"/>
+     </base>
+     <hl>
+      <quad dx="0.142512" cx="0.333333" dy="0.28608" bx="0.333333" cy="0.28608" ax="0.142512" by="0.29889" ay="0.29889" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:58:57" uniqueName="okular-{fe43644f-1e74-4f00-842c-e0a2468db527}" author="Laerte Mateus Rodrigues" contents="Caixero Viajante. " modifyDate="2017-12-03T23:58:57" color="#ffff00">
+      <boundary l="0.231638" r="0.261638" b="0.307702" t="0.286476"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-03T23:59:47" uniqueName="okular-{ccf7e7e8-d4bb-46ba-9005-82b7b05a96e0}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-03T23:59:47" color="#ffff00">
+      <boundary l="0.787194" r="0.855932" b="0.405063" t="0.392405"/>
+     </base>
+     <hl>
+      <quad dx="0.78744" cx="0.85628" dy="0.392827" bx="0.85628" cy="0.392827" ax="0.78744" by="0.405636" ay="0.405636" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-03T23:59:51" uniqueName="okular-{7d74efdf-fa98-41ba-85e4-01a40a520598}" author="Laerte Mateus Rodrigues" contents="mostraram" modifyDate="2017-12-03T23:59:51" color="#ffff00">
+      <boundary l="0.815443" r="0.845443" b="0.420293" t="0.399067"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="14">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:00:16" uniqueName="okular-{e3e1f56c-53d5-4992-8640-9cfd219e56c9}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:00:16" color="#ffff00">
+      <boundary l="0.433145" r="0.612053" b="0.126582" t="0.1006"/>
+     </base>
+     <hl>
+      <quad dx="0.433575" cx="0.612319" dy="0.100769" bx="0.612319" cy="0.100769" ax="0.433575" by="0.127242" ay="0.127242" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:00:20" uniqueName="okular-{d9aa8279-70a3-40e9-a612-945edd4d6b83}" author="Laerte Mateus Rodrigues" contents="Assim que corrigir o resumo, corrija tambem o abstract que eu o corrijo" modifyDate="2017-12-04T00:00:20" color="#ffff00">
+      <boundary l="0.485876" r="0.515876" b="0.126489" t="0.105263"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="18">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:00:50" uniqueName="okular-{355f2422-a29c-489c-a827-fc7970347cf1}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:00:50" color="#ffff00">
+      <boundary l="0.142185" r="0.819209" b="0.191872" t="0.1006"/>
+     </base>
+     <hl>
+      <quad dx="0.347826" cx="0.698068" dy="0.100769" bx="0.698068" cy="0.100769" ax="0.347826" by="0.127242" ay="0.127242" feather="1"/>
+      <quad dx="0.142512" cx="0.820048" dy="0.180188" bx="0.820048" cy="0.180188" ax="0.142512" by="0.192143" ay="0.192143" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:00:52" uniqueName="okular-{b9005d6f-2ea7-4a45-b089-2b08c24f176b}" author="Laerte Mateus Rodrigues" contents="Remova a lista de quadros, só é necessário com 3 ou mais" modifyDate="2017-12-04T00:00:52" color="#ffff00">
+      <boundary l="0.460452" r="0.490452" b="0.130486" t="0.10926"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="24">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:01:29" uniqueName="okular-{3e76b43c-2c74-4777-bf75-3bcc7304a554}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:01:29" color="#ffff00">
+      <boundary l="0.319209" r="0.707156" b="0.126582" t="0.1006"/>
+     </base>
+     <hl>
+      <quad dx="0.320048" cx="0.707729" dy="0.100769" bx="0.707729" cy="0.100769" ax="0.320048" by="0.127242" ay="0.127242" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:01:32" uniqueName="okular-{f0dcf47f-533a-418c-a902-120bc8bc6472}" author="Laerte Mateus Rodrigues" contents="Idem da lista de quadros" modifyDate="2017-12-04T00:01:32" color="#ffff00">
+      <boundary l="0.40678" r="0.43678" b="0.107835" t="0.0866089"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="26">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:01:48" uniqueName="okular-{bef1a039-95d9-4f0a-a8b3-bc1b013fc918}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:01:48" color="#ffff00">
+      <boundary l="0.352166" r="0.693974" b="0.126582" t="0.1006"/>
+     </base>
+     <hl>
+      <quad dx="0.352657" cx="0.694444" dy="0.100769" bx="0.694444" cy="0.100769" ax="0.352657" by="0.127242" ay="0.127242" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:01:50" uniqueName="okular-{4895ab95-8d7c-40e4-9eb3-4dd250a36709}" author="Laerte Mateus Rodrigues" contents="Idem" modifyDate="2017-12-04T00:01:50" color="#ffff00">
+      <boundary l="0.47081" r="0.50081" b="0.133817" t="0.112592"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="30">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:02:29" uniqueName="okular-{c22c260c-8dde-4ac3-8dea-fc226e6a817e}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:02:29" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.213191" t="0.17988"/>
+     </base>
+     <hl>
+      <quad dx="0.201691" cx="0.904589" dy="0.180188" bx="0.904589" cy="0.180188" ax="0.201691" by="0.192143" ay="0.192143" feather="1"/>
+      <quad dx="0.142512" cx="0.443237" dy="0.201537" bx="0.443237" cy="0.201537" ax="0.142512" by="0.213493" ay="0.213493" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:02:32" uniqueName="okular-{cc115930-25e0-48af-a8e0-6c20c41f60fa}" author="Laerte Mateus Rodrigues" contents="Atualmente existe uma necessidade de computadores para processamento com grande carga de trabalho." modifyDate="2017-12-04T00:02:32" color="#ffff00">
+      <boundary l="0.373823" r="0.403823" b="0.205769" t="0.184544"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:03:46" uniqueName="okular-{b9856111-029b-4147-bb61-1d39adc9e324}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:03:46" color="#ffff00">
+      <boundary l="0.485876" r="0.847458" b="0.277149" t="0.26449"/>
+     </base>
+     <hl>
+      <quad dx="0.486715" cx="0.847826" dy="0.264731" bx="0.847826" cy="0.264731" ax="0.486715" by="0.277541" ay="0.277541" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:03:48" uniqueName="okular-{a3a71fcb-0813-4604-973b-7d6ea510b6f5}" author="Laerte Mateus Rodrigues" contents="facilidade de seu armazenamento." modifyDate="2017-12-04T00:03:48" color="#ffff00">
+      <boundary l="0.695857" r="0.725857" b="0.288381" t="0.267155"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:04:15" uniqueName="okular-{6d1f5e05-dbb3-415a-b5b2-b64c3361ad69}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:04:15" color="#0000ff">
+      <boundary l="0.142185" r="0.90678" b="0.319787" t="0.26449"/>
+     </base>
+     <hl>
+      <quad dx="0.858696" cx="0.904589" dy="0.264731" bx="0.904589" cy="0.264731" ax="0.858696" by="0.277541" ay="0.277541" feather="1"/>
+      <quad dx="0.142512" cx="0.907005" dy="0.28608" bx="0.907005" cy="0.28608" ax="0.142512" by="0.29889" ay="0.29889" feather="1"/>
+      <quad dx="0.142512" cx="0.518116" dy="0.30743" bx="0.518116" cy="0.30743" ax="0.142512" by="0.320239" ay="0.320239" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:04:18" uniqueName="okular-{e541b7df-1b01-41c8-8821-d27b2d773646}" author="Laerte Mateus Rodrigues" contents="excluir" modifyDate="2017-12-04T00:04:18" color="#ffff00">
+      <boundary l="0.339925" r="0.369925" b="0.317029" t="0.295803"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:04:33" uniqueName="okular-{3f9a8cb9-110e-4e73-87c5-67ffcd14fd15}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:04:33" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.341106" t="0.307129"/>
+     </base>
+     <hl>
+      <quad dx="0.52657" cx="0.904589" dy="0.30743" bx="0.904589" cy="0.30743" ax="0.52657" by="0.320239" ay="0.320239" feather="1"/>
+      <quad dx="0.142512" cx="0.512077" dy="0.328779" bx="0.512077" cy="0.328779" ax="0.142512" by="0.341588" ay="0.341588" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:04:36" uniqueName="okular-{5bc6c888-0f8b-474d-8973-c6579e5fa022}" author="Laerte Mateus Rodrigues" contents="Não necessariamente....&#xa;&#xa;Grande quantidade de dados podem tender a este fenômeno mas não é via de regra.&#xa;&#xa;Remonte esta frase." modifyDate="2017-12-04T00:04:36" color="#ffff00">
+      <boundary l="0.816384" r="0.846384" b="0.338348" t="0.317122"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:05:34" uniqueName="okular-{e6fd3800-9247-4d49-a744-bde489e889e0}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:05:34" color="#ffff00">
+      <boundary l="0.359699" r="0.772128" b="0.383744" t="0.371086"/>
+     </base>
+     <hl>
+      <quad dx="0.359903" cx="0.772947" dy="0.371477" bx="0.772947" cy="0.371477" ax="0.359903" by="0.384287" ay="0.384287" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:05:35" uniqueName="okular-{a621decb-7985-4942-96aa-5408fe0e3392}" author="Laerte Mateus Rodrigues" contents="processamento, como por exemplo, o uso de memória..." modifyDate="2017-12-04T00:05:35" color="#ffff00">
+      <boundary l="0.652542" r="0.682542" b="0.393644" t="0.372418"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:06:13" uniqueName="okular-{af2e717c-9a36-4510-b817-9694c13c6dd1}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:06:13" color="#ffff00">
+      <boundary l="0.36064" r="0.404896" b="0.447702" t="0.435043"/>
+     </base>
+     <hl>
+      <quad dx="0.361111" cx="0.405797" dy="0.435525" bx="0.405797" cy="0.435525" ax="0.361111" by="0.448335" ay="0.448335" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:06:15" uniqueName="okular-{30ff9313-f15d-440d-8834-8269f5dd26ce}" author="Laerte Mateus Rodrigues" contents="e etc." modifyDate="2017-12-04T00:06:15" color="#ffff00">
+      <boundary l="0.380414" r="0.410414" b="0.463598" t="0.442372"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:06:32" uniqueName="okular-{f7987afd-e626-4772-8c20-050daf08266e}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:06:32" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.469021" t="0.435043"/>
+     </base>
+     <hl>
+      <quad dx="0.778986" cx="0.904589" dy="0.435525" bx="0.904589" cy="0.435525" ax="0.778986" by="0.448335" ay="0.448335" feather="1"/>
+      <quad dx="0.142512" cx="0.307971" dy="0.456874" bx="0.307971" cy="0.456874" ax="0.142512" by="0.469684" ay="0.469684" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:06:33" uniqueName="okular-{916e8547-9276-4536-a04a-0e7cf965e38d}" author="Laerte Mateus Rodrigues" contents="instruções RISC não são necessariamente uma melhoria, mas sim uma forma de executar instruções em que o tempo de relógio seja menor...&#xa;&#xa;Deixe este comentário para o final pois ele agora está no seu título" modifyDate="2017-12-04T00:06:33" color="#ffff00">
+      <boundary l="0.259887" r="0.289887" b="0.486249" t="0.465023"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:07:23" uniqueName="okular-{50cb23e5-1147-4da2-baf1-fc56de1491f9}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:07:23" color="#ffff00">
+      <boundary l="0.142185" r="0.246704" b="0.491006" t="0.477682"/>
+     </base>
+     <hl>
+      <quad dx="0.142512" cx="0.247585" dy="0.478224" bx="0.247585" cy="0.478224" ax="0.142512" by="0.491033" ay="0.491033" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:07:24" uniqueName="okular-{479a2686-a697-4030-95d1-8eb6695ea5d1}" author="Laerte Mateus Rodrigues" contents="dentre outros" modifyDate="2017-12-04T00:07:24" color="#ffff00">
+      <boundary l="0.193974" r="0.223974" b="0.509567" t="0.488341"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:08:08" uniqueName="okular-{d9e16f8b-505d-4298-959b-0680f0093182}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:08:08" color="#ffff00">
+      <boundary l="0.391714" r="0.514124" b="0.639574" t="0.626249"/>
+     </base>
+     <hl>
+      <quad dx="0.392512" cx="0.514493" dy="0.626815" bx="0.514493" cy="0.626815" ax="0.392512" by="0.639624" ay="0.639624" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:08:10" uniqueName="okular-{8d96b74d-a90a-47b2-99ae-74efd4333f41}" author="Laerte Mateus Rodrigues" contents="Crie aqui um parágrafo falando sobre instruções do tipo RISC e CISC.&#xa;&#xa;vai ficar dahora!" modifyDate="2017-12-04T00:08:10" color="#ffff00">
+      <boundary l="0.420904" r="0.450904" b="0.654803" t="0.633578"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="31">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:08:57" uniqueName="okular-{25a7b39c-9909-459f-83e4-ad8f75f43400}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:08:57" color="#ffff00">
+      <boundary l="0.347458" r="0.369115" b="0.117255" t="0.104597"/>
+     </base>
+     <hl>
+      <quad dx="0.347826" cx="0.369565" dy="0.105038" bx="0.369565" cy="0.105038" ax="0.347826" by="0.117848" ay="0.117848" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:08:59" uniqueName="okular-{700f8196-bb27-4ac0-acc1-af1c58a8ef54}" author="Laerte Mateus Rodrigues" contents="à" modifyDate="2017-12-04T00:08:59" color="#ffff00">
+      <boundary l="0.352166" r="0.382166" b="0.131819" t="0.110593"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:09:11" uniqueName="okular-{4bfc0c93-1d93-42aa-9bb7-01d1525c2951}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:09:11" color="#ffff00">
+      <boundary l="0.592279" r="0.701507" b="0.117255" t="0.104597"/>
+     </base>
+     <hl>
+      <quad dx="0.592995" cx="0.701691" dy="0.105038" bx="0.701691" cy="0.105038" ax="0.592995" by="0.117848" ay="0.117848" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:09:13" uniqueName="okular-{45c8e489-6e86-48c1-a0fc-d44df97c696d}" author="Laerte Mateus Rodrigues" contents="Crie uma nota de rodapé explicando o que é concorrência" modifyDate="2017-12-04T00:09:13" color="#ffff00">
+      <boundary l="0.63371" r="0.66371" b="0.135816" t="0.11459"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:10:06" uniqueName="okular-{dffc12a0-599f-4a14-ad8f-5e93c264b82e}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:10:06" color="#ffff00">
+      <boundary l="0.186441" r="0.265537" b="0.267155" t="0.253831"/>
+     </base>
+     <hl>
+      <quad dx="0.187198" cx="0.2657" dy="0.254483" bx="0.2657" cy="0.254483" ax="0.187198" by="0.267293" ay="0.267293" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:10:08" uniqueName="okular-{4a05f0df-d3b9-4793-9c80-548a1425fb5e}" author="Laerte Mateus Rodrigues" contents="Software, hardware e internet já são palavras oficialmente em português, retire o italico de todas as ocorrências" modifyDate="2017-12-04T00:10:08" color="#ffff00">
+      <boundary l="0.23823" r="0.26823" b="0.283051" t="0.261825"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:11:33" uniqueName="okular-{327d94bf-ac78-4bc0-ac4c-567d8c926ae5}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:11:33" color="#ffff00">
+      <boundary l="0.402072" r="0.847458" b="0.83944" t="0.80946"/>
+     </base>
+     <hl>
+      <quad dx="0.781401" cx="0.847826" dy="0.809564" bx="0.847826" cy="0.809564" ax="0.781401" by="0.822374" ay="0.822374" feather="1"/>
+      <quad dx="0.402174" cx="0.539855" dy="0.826644" bx="0.539855" cy="0.826644" ax="0.402174" by="0.839453" ay="0.839453" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:11:34" uniqueName="okular-{330fa422-ef6c-4057-b60f-fbd8956fdcfb}" author="Laerte Mateus Rodrigues" contents="Faltou uma quebra de linha aqui." modifyDate="2017-12-04T00:11:34" color="#ffff00">
+      <boundary l="0.492467" r="0.522467" b="0.852672" t="0.831446"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:11:47" uniqueName="okular-{90156cb0-5b18-4972-b28e-120197fb84fc}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:11:47" color="#ffff00">
+      <boundary l="0.115819" r="0.659134" b="0.752831" t="0.722851"/>
+     </base>
+     <hl>
+      <quad dx="0.425121" cx="0.61715" dy="0.723313" bx="0.61715" cy="0.723313" ax="0.425121" by="0.736123" ay="0.736123" feather="1"/>
+      <quad dx="0.115942" cx="0.65942" dy="0.741247" bx="0.65942" cy="0.741247" ax="0.115942" by="0.753202" ay="0.753202" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:11:49" uniqueName="okular-{04260409-09a8-4d3f-a3ff-150e07026ee7}" author="Laerte Mateus Rodrigues" contents="Retirar esta quebra de linha" modifyDate="2017-12-04T00:11:49" color="#ffff00">
+      <boundary l="0.520716" r="0.550716" b="0.750073" t="0.728847"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:12:33" uniqueName="okular-{c8a6534b-2720-4df0-a1d0-c984a22ecf3a}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:12:33" color="#ffff00">
+      <boundary l="0.255179" r="0.324859" b="0.415723" t="0.403731"/>
+     </base>
+     <hl>
+      <quad dx="0.256039" cx="0.324879" dy="0.403928" bx="0.324879" cy="0.403928" ax="0.256039" by="0.415884" ay="0.415884" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:12:34" uniqueName="okular-{7262de96-c2bb-435e-bfe7-27de96118f49}" author="Laerte Mateus Rodrigues" contents="natural enquanto a Figura ..." modifyDate="2017-12-04T00:12:34" color="#ffff00">
+      <boundary l="0.282486" r="0.312486" b="0.42962" t="0.408394"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="32">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:12:56" uniqueName="okular-{b096ad19-8611-4553-b8f3-4ab5aacfb605}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:12:56" color="#ffff00">
+      <boundary l="0.467985" r="0.517891" b="0.481013" t="0.468354"/>
+     </base>
+     <hl>
+      <quad dx="0.468599" cx="0.518116" dy="0.46883" bx="0.518116" cy="0.46883" ax="0.468599" by="0.48164" ay="0.48164" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:12:59" uniqueName="okular-{3ffeee08-db1e-4864-8a06-e70c9fe0578d}" author="Laerte Mateus Rodrigues" contents="excluir" modifyDate="2017-12-04T00:12:59" color="#ffff00">
+      <boundary l="0.495292" r="0.525292" b="0.499574" t="0.478348"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:13:41" uniqueName="okular-{37aeac91-e579-48fd-b934-236a7bfa50d3}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:13:41" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.728847" t="0.69487"/>
+     </base>
+     <hl>
+      <quad dx="0.201691" cx="0.904589" dy="0.695132" bx="0.904589" cy="0.695132" ax="0.201691" by="0.707942" ay="0.707942" feather="1"/>
+      <quad dx="0.142512" cx="0.676329" dy="0.716482" bx="0.676329" cy="0.716482" ax="0.142512" by="0.729291" ay="0.729291" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:13:43" uniqueName="okular-{6bd71721-a0e4-413e-bb37-a8a43a331c19}" author="Laerte Mateus Rodrigues" contents="Excluir" modifyDate="2017-12-04T00:13:43" color="#ffff00">
+      <boundary l="0.291902" r="0.321902" b="0.724091" t="0.702865"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:13:55" uniqueName="okular-{14a9303f-55b2-477e-9bc7-16ab8462a837}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:13:55" color="#ffff00">
+      <boundary l="0.141243" r="0.400188" b="0.782811" t="0.767488"/>
+     </base>
+     <hl>
+      <quad dx="0.141304" cx="0.400966" dy="0.76772" bx="0.400966" cy="0.76772" ax="0.141304" by="0.783091" ay="0.783091" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:14:01" uniqueName="okular-{d92c0240-ad13-4ef5-9f20-38658e81cd61}" author="Laerte Mateus Rodrigues" contents="O objetivo geral é o 1.1" modifyDate="2017-12-04T00:14:01" color="#ffff00">
+      <boundary l="0.249529" r="0.279529" b="0.798041" t="0.776815"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:14:16" uniqueName="okular-{568b3df5-1d06-448f-8bca-e6ee8830a344}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:14:16" color="#ffff00">
+      <boundary l="0.141243" r="0.472693" b="0.888741" t="0.874084"/>
+     </base>
+     <hl>
+      <quad dx="0.141304" cx="0.47343" dy="0.874466" bx="0.47343" cy="0.874466" ax="0.141304" by="0.888984" ay="0.888984" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:14:18" uniqueName="okular-{4e3bec55-ab18-4944-a134-3922f65fe35c}" author="Laerte Mateus Rodrigues" contents="Objetivo específico 1.1.1" modifyDate="2017-12-04T00:14:18" color="#ffff00">
+      <boundary l="0.278719" r="0.308719" b="0.904637" t="0.883411"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:14:32" uniqueName="okular-{9e683996-b9b3-4423-8017-c041de5e1494}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:14:32" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.941372" t="0.907395"/>
+     </base>
+     <hl>
+      <quad dx="0.201691" cx="0.904589" dy="0.907771" bx="0.904589" cy="0.907771" ax="0.201691" by="0.920581" ay="0.920581" feather="1"/>
+      <quad dx="0.142512" cx="0.445652" dy="0.92912" bx="0.445652" cy="0.92912" ax="0.142512" by="0.94193" ay="0.94193" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:14:35" uniqueName="okular-{a78821c4-991e-4e6b-a8a6-6d282f02c34f}" author="Laerte Mateus Rodrigues" contents="Coloque números ao invés de letras no enumerate" modifyDate="2017-12-04T00:14:35" color="#ffff00">
+      <boundary l="0.260829" r="0.290829" b="0.935949" t="0.914724"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="33">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:15:01" uniqueName="okular-{b40f460e-be28-4592-9e02-14a6a77de7b0}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:15:01" color="#ffff00">
+      <boundary l="0.155367" r="0.510358" b="0.249167" t="0.236509"/>
+     </base>
+     <hl>
+      <quad dx="0.155797" cx="0.485507" dy="0.23655" bx="0.485507" cy="0.23655" ax="0.155797" by="0.24936" ay="0.24936" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:15:02" uniqueName="okular-{5fb34b52-53fd-4a88-898a-3099ddb27edb}" author="Laerte Mateus Rodrigues" contents="Excluir" modifyDate="2017-12-04T00:15:02" color="#ffff00">
+      <boundary l="0.29096" r="0.32096" b="0.267728" t="0.246502"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="34">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:16:05" uniqueName="okular-{b296a2f2-f701-476d-bdd4-c87c494caaf9}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:16:05" color="#ffff00">
+      <boundary l="0.511299" r="0.564972" b="0.561626" t="0.548967"/>
+     </base>
+     <hl>
+      <quad dx="0.512077" cx="0.565217" dy="0.549103" bx="0.565217" cy="0.549103" ax="0.512077" by="0.561913" ay="0.561913" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:16:08" uniqueName="okular-{adb5591d-641a-4f12-81e3-3b731c4e94ff}" author="Laerte Mateus Rodrigues" contents="às" modifyDate="2017-12-04T00:16:08" color="#ffff00">
+      <boundary l="0.547081" r="0.577081" b="0.57952" t="0.558294"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:16:38" uniqueName="okular-{97c375fb-0f91-4094-addf-9b53a2d27084}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:16:38" color="#ffff00">
+      <boundary l="0.655367" r="0.729755" b="0.668221" t="0.655563"/>
+     </base>
+     <hl>
+      <quad dx="0.655797" cx="0.730676" dy="0.65585" bx="0.730676" cy="0.65585" ax="0.655797" by="0.668659" ay="0.668659" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:16:40" uniqueName="okular-{5084759e-1e4b-4e73-96e2-2906e9e99273}" author="Laerte Mateus Rodrigues" contents="excluir" modifyDate="2017-12-04T00:16:40" color="#ffff00">
+      <boundary l="0.690207" r="0.720207" b="0.686116" t="0.66489"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:17:06" uniqueName="okular-{5d29c204-2f2e-4bf3-b1e4-b16336adab02}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:17:06" color="#ffff00">
+      <boundary l="0.637476" r="0.686441" b="0.774151" t="0.762159"/>
+     </base>
+     <hl>
+      <quad dx="0.637681" cx="0.687198" dy="0.762596" bx="0.687198" cy="0.762596" ax="0.637681" by="0.774552" ay="0.774552" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:17:08" uniqueName="okular-{fd35539d-1914-485d-9b58-daca00296e8b}" author="Laerte Mateus Rodrigues" contents="características que" modifyDate="2017-12-04T00:17:08" color="#ffff00">
+      <boundary l="0.649718" r="0.679718" b="0.786716" t="0.76549"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:17:29" uniqueName="okular-{bcef82be-79a6-4d74-a134-609ecd658717}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:17:29" color="#ffff00">
+      <boundary l="0.142185" r="0.903955" b="0.838108" t="0.804131"/>
+     </base>
+     <hl>
+      <quad dx="0.17029" cx="0.904589" dy="0.804441" bx="0.904589" cy="0.804441" ax="0.17029" by="0.81725" ay="0.81725" feather="1"/>
+      <quad dx="0.142512" cx="0.479469" dy="0.82579" bx="0.479469" cy="0.82579" ax="0.142512" by="0.838599" ay="0.838599" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:17:32" uniqueName="okular-{db498588-b77d-44a7-a5dd-c421b40d81f7}" author="Laerte Mateus Rodrigues" contents="Se é uma citação direta, falta colocar no final a referência, senão, retirar as aspas" modifyDate="2017-12-04T00:17:32" color="#ffff00">
+      <boundary l="0.310734" r="0.340734" b="0.838681" t="0.817455"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="36">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:19:05" uniqueName="okular-{ca04a04a-0ab4-47b6-9d12-aa45a67f87b1}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:19:05" color="#ffff00">
+      <boundary l="0.492467" r="0.596987" b="0.117255" t="0.104597"/>
+     </base>
+     <hl>
+      <quad dx="0.492754" cx="0.597826" dy="0.105038" bx="0.597826" cy="0.105038" ax="0.492754" by="0.117848" ay="0.117848" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:19:07" uniqueName="okular-{b8ae0422-f21c-418e-94f7-9b7145736008}" author="Laerte Mateus Rodrigues" contents="Quadro????" modifyDate="2017-12-04T00:19:07" color="#ffff00">
+      <boundary l="0.535782" r="0.565782" b="0.131153" t="0.109927"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="41">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:20:40" uniqueName="okular-{688d3994-97c8-44fd-aea7-77b2976b158c}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:20:40" color="#ffff00">
+      <boundary l="0.102637" r="0.626177" b="0.794137" t="0.764157"/>
+     </base>
+     <hl>
+      <quad dx="0.405797" cx="0.626812" dy="0.764304" bx="0.626812" cy="0.764304" ax="0.405797" by="0.777114" ay="0.777114" feather="1"/>
+      <quad dx="0.102657" cx="0.464976" dy="0.781383" bx="0.464976" cy="0.781383" ax="0.102657" by="0.794193" ay="0.794193" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:20:42" uniqueName="okular-{a896f80e-c18c-4c4a-be15-e4cc32b9fde5}" author="Laerte Mateus Rodrigues" contents="Retirar esta quebra de linha" modifyDate="2017-12-04T00:20:42" color="#ffff00">
+      <boundary l="0.36064" r="0.39064" b="0.807368" t="0.786143"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="43">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:21:17" uniqueName="okular-{5d7313ed-4035-4d60-8369-5380a517a9ea}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:21:17" color="#ffff00">
+      <boundary l="0.579096" r="0.672316" b="0.197868" t="0.18521"/>
+     </base>
+     <hl>
+      <quad dx="0.57971" cx="0.672705" dy="0.185312" bx="0.672705" cy="0.185312" ax="0.57971" by="0.198121" ay="0.198121" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:21:19" uniqueName="okular-{8a720248-da24-4e65-ab11-c5986cde3ce3}" author="Laerte Mateus Rodrigues" contents="são" modifyDate="2017-12-04T00:21:19" color="#ffff00">
+      <boundary l="0.596987" r="0.626987" b="0.213098" t="0.191872"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="50">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:22:07" uniqueName="okular-{cb1981ea-1886-4c9d-8453-24943c629442}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:22:07" color="#ffff00">
+      <boundary l="0.272128" r="0.772128" b="0.932045" t="0.903398"/>
+     </base>
+     <hl>
+      <quad dx="0.272947" cx="0.289855" dy="0.912895" bx="0.289855" cy="0.912895" ax="0.272947" by="0.920581" ay="0.920581" feather="1"/>
+      <quad dx="0.289855" cx="0.306763" dy="0.918873" bx="0.306763" cy="0.918873" ax="0.289855" by="0.931682" ay="0.931682" feather="1"/>
+      <quad dx="0.306763" cx="0.648551" dy="0.918019" bx="0.648551" cy="0.918019" ax="0.306763" by="0.932536" ay="0.932536" feather="1"/>
+      <quad dx="0.648551" cx="0.713768" dy="0.916311" bx="0.713768" cy="0.916311" ax="0.648551" by="0.931682" ay="0.931682" feather="1"/>
+      <quad dx="0.713768" cx="0.772947" dy="0.918019" bx="0.772947" cy="0.918019" ax="0.713768" by="0.932536" ay="0.932536" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:22:09" uniqueName="okular-{8c9c954e-3565-4572-91da-840f9937e7b5}" author="Laerte Mateus Rodrigues" contents="fica melhor&#xa;&#xa;d(P,Q) = segunda raiz com somatório" modifyDate="2017-12-04T00:22:09" color="#ffff00">
+      <boundary l="0.483992" r="0.513992" b="0.94461" t="0.923384"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:22:42" uniqueName="okular-{9cbcabac-a7b1-4a81-8b41-e34ee6722bd1}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:22:42" color="#ffff00">
+      <boundary l="0.60452" r="0.690207" b="0.858095" t="0.844104"/>
+     </base>
+     <hl>
+      <quad dx="0.605072" cx="0.614734" dy="0.844577" bx="0.614734" cy="0.844577" ax="0.605072" by="0.857387" ay="0.857387" feather="1"/>
+      <quad dx="0.614734" cx="0.690821" dy="0.844577" bx="0.690821" cy="0.844577" ax="0.614734" by="0.858241" ay="0.858241" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:22:44" uniqueName="okular-{fd49fd56-e6a1-4ed9-a378-3128d95db17b}" author="Laerte Mateus Rodrigues" contents="tá faltando espaço, utilize&#xa;&#xa;{CONTRA BARRA}{ESPAÇO}" modifyDate="2017-12-04T00:22:44" color="#ffff00">
+      <boundary l="0.62806" r="0.65806" b="0.873324" t="0.852099"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="51">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:23:16" uniqueName="okular-{f05eccc7-4a8c-405b-acd9-821eae38eb42}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:23:16" color="#ffff00">
+      <boundary l="0.45951" r="0.500942" b="0.898734" t="0.886076"/>
+     </base>
+     <hl>
+      <quad dx="0.460145" cx="0.501208" dy="0.886422" bx="0.501208" cy="0.886422" ax="0.460145" by="0.899231" ay="0.899231" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:23:18" uniqueName="okular-{288fe9a0-5f6b-4d48-afe9-f91e6204507b}" author="Laerte Mateus Rodrigues" contents="EXCLLUIR" modifyDate="2017-12-04T00:23:18" color="#ffff00">
+      <boundary l="0.481168" r="0.511168" b="0.912632" t="0.891406"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:24:03" uniqueName="okular-{a29271b3-dba6-4fda-834c-42ece9d39197}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:24:03" color="#ffff00">
+      <boundary l="0.144068" r="0.856874" b="0.942705" t="0.886076"/>
+     </base>
+     <hl>
+      <quad dx="0.144928" cx="0.857488" dy="0.886422" bx="0.857488" cy="0.886422" ax="0.144928" by="0.899231" ay="0.899231" feather="1"/>
+      <quad dx="0.144928" cx="0.857488" dy="0.907771" bx="0.857488" cy="0.907771" ax="0.144928" by="0.920581" ay="0.920581" feather="1"/>
+      <quad dx="0.144928" cx="0.155797" dy="0.92912" bx="0.155797" cy="0.92912" ax="0.144928" by="0.94193" ay="0.94193" feather="1"/>
+      <quad dx="0.155797" cx="0.857488" dy="0.92912" bx="0.857488" cy="0.92912" ax="0.155797" by="0.942784" ay="0.942784" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:24:04" uniqueName="okular-{642995ef-7c31-4a7b-a2f2-7081e39f10d0}" author="Laerte Mateus Rodrigues" contents="média, mediana e desvio padrão são elementos básicos de estatística, pode excluir" modifyDate="2017-12-04T00:24:04" color="#ffff00">
+      <boundary l="0.300377" r="0.330377" b="0.913964" t="0.892738"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="52">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:23:41" uniqueName="okular-{8e4b8651-51c5-4b7b-847f-1091f1994a19}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:23:41" color="#ffff00">
+      <boundary l="0.381356" r="0.551789" b="0.524983" t="0.512325"/>
+     </base>
+     <hl>
+      <quad dx="0.381643" cx="0.551932" dy="0.512383" bx="0.551932" cy="0.512383" ax="0.381643" by="0.525192" ay="0.525192" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:23:44" uniqueName="okular-{5988e381-f8de-4139-a8c3-49f440830a79}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:23:44" color="#ffff00">
+      <boundary l="0.467985" r="0.497985" b="0.541546" t="0.52032"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="54">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:25:07" uniqueName="okular-{30b0436d-f767-4373-ac9c-6a0fa26973ee}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:25:07" color="#ffff00">
+      <boundary l="0.541431" r="0.578154" b="0.813458" t="0.800799"/>
+     </base>
+     <hl>
+      <quad dx="0.542271" cx="0.573671" dy="0.801025" bx="0.573671" cy="0.801025" ax="0.542271" by="0.813834" ay="0.813834" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:25:10" uniqueName="okular-{bb646dab-99f4-4d90-96cf-5f33cc0cab25}" author="Laerte Mateus Rodrigues" contents="3,3 vezes maior? menor?" modifyDate="2017-12-04T00:25:10" color="#ffff00">
+      <boundary l="0.555556" r="0.585556" b="0.828021" t="0.806795"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:25:32" uniqueName="okular-{d3d6d58d-2aa3-450b-9048-66df642ee03e}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:25:32" color="#0000ff">
+      <boundary l="0.142185" r="0.903955" b="0.834777" t="0.800799"/>
+     </base>
+     <hl>
+      <quad dx="0.584541" cx="0.904589" dy="0.801025" bx="0.904589" cy="0.801025" ax="0.584541" by="0.813834" ay="0.813834" feather="1"/>
+      <quad dx="0.142512" cx="0.584541" dy="0.822374" bx="0.584541" cy="0.822374" ax="0.142512" by="0.835184" ay="0.835184" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:25:35" uniqueName="okular-{8c0e62d8-27ad-4e40-aefa-5814a9a65bb1}" author="Laerte Mateus Rodrigues" contents="excluir" modifyDate="2017-12-04T00:25:35" color="#ffff00">
+      <boundary l="0.410546" r="0.440546" b="0.854004" t="0.832778"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="60">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:26:18" uniqueName="okular-{59f6dba6-0da0-4c44-b019-36e47b308a5b}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:26:18" color="#ffff00">
+      <boundary l="0.149718" r="0.903955" b="0.914057" t="0.867422"/>
+     </base>
+     <hl>
+      <quad dx="0.268116" cx="0.777778" dy="0.867635" bx="0.777778" cy="0.867635" ax="0.268116" by="0.882152" ay="0.882152" feather="1"/>
+      <quad dx="0.149758" cx="0.904589" dy="0.884714" bx="0.904589" cy="0.884714" ax="0.149758" by="0.899231" ay="0.899231" feather="1"/>
+      <quad dx="0.47343" cx="0.56401" dy="0.901793" bx="0.56401" cy="0.901793" ax="0.47343" by="0.914603" ay="0.914603" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:26:20" uniqueName="okular-{58bdd791-c5c1-4e01-bf94-24c92d12ef0b}" author="Laerte Mateus Rodrigues" contents="retire esta figura, ela não está dizendo nada" modifyDate="2017-12-04T00:26:20" color="#ffff00">
+      <boundary l="0.463277" r="0.493277" b="0.893977" t="0.872751"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="63">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:26:53" uniqueName="okular-{3dc18d9e-2f1b-4b2a-bd2b-84f23128fe10}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:26:53" color="#ffff00">
+      <boundary l="0.0951036" r="0.859699" b="0.237841" t="0.101266"/>
+     </base>
+     <hl>
+      <quad dx="0.0954106" cx="0.322464" dy="0.101623" bx="0.322464" cy="0.101623" ax="0.0954106" by="0.119556" ay="0.119556" feather="1"/>
+      <quad dx="0.155797" cx="0.859903" dy="0.140905" bx="0.859903" cy="0.140905" ax="0.155797" by="0.153715" ay="0.153715" feather="1"/>
+      <quad dx="0.0954106" cx="0.857488" dy="0.162254" bx="0.857488" cy="0.162254" ax="0.0954106" by="0.17421" ay="0.17421" feather="1"/>
+      <quad dx="0.0954106" cx="0.857488" dy="0.183604" bx="0.857488" cy="0.183604" ax="0.0954106" by="0.195559" ay="0.195559" feather="1"/>
+      <quad dx="0.0954106" cx="0.857488" dy="0.204099" bx="0.857488" cy="0.204099" ax="0.0954106" by="0.216909" ay="0.216909" feather="1"/>
+      <quad dx="0.0954106" cx="0.384058" dy="0.225448" bx="0.384058" cy="0.225448" ax="0.0954106" by="0.238258" ay="0.238258" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:27:02" uniqueName="okular-{8e1d4d63-e3ce-436e-bc04-b56323b97461}" author="Laerte Mateus Rodrigues" contents="este deve ser o último parágrafo do texto das conclusões, não pode ser uma seção" modifyDate="2017-12-04T00:27:02" color="#ffff00">
+      <boundary l="0.285311" r="0.315311" b="0.204437" t="0.183211"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:27:33" uniqueName="okular-{7d00114a-dcf2-4966-8ebf-b7e7c20d3f90}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:27:33" color="#ffff00">
+      <boundary l="0.480226" r="0.702448" b="0.363757" t="0.350433"/>
+     </base>
+     <hl>
+      <quad dx="0.480676" cx="0.702899" dy="0.350982" bx="0.702899" cy="0.350982" ax="0.480676" by="0.363792" ay="0.363792" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:27:35" uniqueName="okular-{c7c10c98-f71f-403d-a7bb-7b263fe8745f}" author="Laerte Mateus Rodrigues" contents="Como por exemplo..." modifyDate="2017-12-04T00:27:35" color="#ffff00">
+      <boundary l="0.531073" r="0.561073" b="0.378321" t="0.357095"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:27:43" uniqueName="okular-{ed7064b4-2ec4-46aa-9b14-61914dc75fac}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:27:43" color="#ffff00">
+      <boundary l="0.438795" r="0.709981" b="0.395736" t="0.383078"/>
+     </base>
+     <hl>
+      <quad dx="0.439614" cx="0.710145" dy="0.383433" bx="0.710145" cy="0.383433" ax="0.439614" by="0.396243" ay="0.396243" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:27:45" uniqueName="okular-{2d1d8e17-55fc-463e-aad8-dcf8305e8d21}" author="Laerte Mateus Rodrigues" contents="Como por exemplo..." modifyDate="2017-12-04T00:27:45" color="#ffff00">
+      <boundary l="0.567797" r="0.597797" b="0.412298" t="0.391073"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2017-12-04T00:27:56" uniqueName="okular-{12ad929d-a598-400c-a6c4-ba5bbd411aa1}" author="Laerte Mateus Rodrigues" modifyDate="2017-12-04T00:27:56" color="#ffff00">
+      <boundary l="0.673258" r="0.766478" b="0.429047" t="0.416389"/>
+     </base>
+     <hl>
+      <quad dx="0.673913" cx="0.766908" dy="0.416738" bx="0.766908" cy="0.416738" ax="0.673913" by="0.429547" ay="0.429547" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="1">
+     <base flags="0" creationDate="2017-12-04T00:27:58" uniqueName="okular-{61aeaab4-2498-43fa-bad7-cbbfb0087b01}" author="Laerte Mateus Rodrigues" contents="exemplo" modifyDate="2017-12-04T00:27:58" color="#ffff00">
+      <boundary l="0.704331" r="0.734331" b="0.442278" t="0.421053"/>
+      <window width="0" flags="-1" title="" left="0" height="0" summary="Pop-up Note" top="0"/>
+     </base>
+     <text icon="Note"/>
+    </annotation>
+   </annotationList>
+  </page>
+ </pageList>
+ <generalInfo>
+  <history>
+   <oldPage viewport="62;C2:0.499529:0.932045:1"/>
+   <oldPage viewport="63;C2:0.499529:1.00333:1"/>
+   <oldPage viewport="64;C2:0.499529:0.0353098:1"/>
+   <oldPage viewport="63;C2:0.499529:0.00399734:1"/>
+   <oldPage viewport="62;C2:0.499529:0.0126582:1"/>
+   <oldPage viewport="61;C2:0.499529:0.0213191:1"/>
+   <oldPage viewport="60;C2:0.499529:0.02998:1"/>
+   <oldPage viewport="59;C2:0.499529:-0.00133245:1"/>
+   <oldPage viewport="58;C2:0.499529:0.0473018:1"/>
+   <oldPage viewport="57;C2:0.499529:0.0159893:1"/>
+   <current viewport="56;C2:0.499529:0.104597:1"/>
+  </history>
+  <views>
+   <view name="PageView">
+    <zoom mode="1" value="1.33648"/>
+   </view>
+  </views>
+ </generalInfo>
+</documentInfo>
